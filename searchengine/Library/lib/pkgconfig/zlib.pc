@@ -1,0 +1,13 @@
+prefix=E:/End-to-end-search-engine/End-to-end-search-engine-using-LangChain-Tools-Agets-/searchengine/Library
+exec_prefix=E:/End-to-end-search-engine/End-to-end-search-engine-using-LangChain-Tools-Agets-/searchengine/Library
+libdir=E:/End-to-end-search-engine/End-to-end-search-engine-using-LangChain-Tools-Agets-/searchengine/Library/lib
+sharedlibdir=E:/End-to-end-search-engine/End-to-end-search-engine-using-LangChain-Tools-Agets-/searchengine/Library/lib
+includedir=E:/End-to-end-search-engine/End-to-end-search-engine-using-LangChain-Tools-Agets-/searchengine/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
